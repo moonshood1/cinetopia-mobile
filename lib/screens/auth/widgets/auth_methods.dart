@@ -1,3 +1,4 @@
+import 'package:cinetopia/common/colors.dart';
 import 'package:cinetopia/screens/auth/models/sign_methods.dart';
 import 'package:flutter/material.dart';
 import 'package:cinetopia/common/images.dart';
@@ -57,7 +58,7 @@ class MethodContainerWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return InkWell(
       onTap: () {},
       child: Container(
         alignment: alignRow ? Alignment.topLeft : null,

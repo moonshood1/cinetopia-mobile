@@ -45,7 +45,7 @@ class _MovieRootScreenState extends State<MovieRootScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             const SectionPresentation(
-              title: "Les dernieres sorties ciné ",
+              title: "Les dernières sorties ciné ",
               subTitle: "Les films qu'on a vu recemment en salles",
             ),
             SingleChildScrollView(
@@ -111,10 +111,10 @@ class _MovieRootScreenState extends State<MovieRootScreen> {
                     title: "Fantastique",
                     borderColor: Colors.brown.withOpacity(0.6),
                   ),
-                  CategoryBadgeSelector(
-                    title: "Science fiction",
-                    borderColor: Colors.purple.withOpacity(0.6),
-                  ),
+                  // CategoryBadgeSelector(
+                  //   title: "Science fiction",
+                  //   borderColor: Colors.purple.withOpacity(0.6),
+                  // ),
                 ],
               ),
             ),
